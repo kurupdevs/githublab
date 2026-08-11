@@ -18,6 +18,7 @@ def main():
         logger.error("BOT_TOKEN not set!")
         return
     logger.info("githublab is running!")
+    logger.info(f"Environment configured successfully")
 
 
 if __name__ == "__main__":
