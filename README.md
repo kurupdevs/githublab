@@ -1,15 +1,31 @@
 # Githublab
 
-GitHub automation and laboratory toolkit for developers.
+A simple GitHub repository management tool.
 
 ## Features
-- 🤖 Automated workflows
-- 📈 Repository analytics
-- 🔧 Developer tools
-- 🧪 Testing utilities
 
-## Getting Started
-Explore the tools and utilities in this repository to enhance your GitHub workflow.
+- List user repositories
+- Get repository information
+- Star count checker
 
-## License
-See LICENSE file.
+## Setup
+
+```bash
+pip install -r requirements.txt
+export GITHUB_TOKEN="your_token"
+python main.py
+```
+
+## Usage
+
+```python
+from main import get_user_repos, get_repo_info
+
+# Get repos
+repos = get_user_repos("username")
+
+# Get info
+info = get_repo_info("owner", "repo")
+```
+
+Built by [kurupdevs](https://github.com/kurupdevs)
