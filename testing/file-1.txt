@@ -1,3 +1,2 @@
 This is test file 1 for githublab.
-Testing file operations.
-# test marker
+Testing file operations and updates.
