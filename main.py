@@ -1,6 +1,8 @@
 # Githublab - Main Entry
 # A simple Python application
 
+import sys
+
 def main():
     print("Welcome to Githublab!")
     
