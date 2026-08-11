@@ -1,4 +1,2 @@
-pyrogram>=2.0.0
-tgcrypto>=1.2.0
-asyncio
-
+requests>=2.28.0
+# Githublab deps
