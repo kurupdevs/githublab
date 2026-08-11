@@ -1,5 +1,18 @@
-# .gitignore for Githublab
-*.pyc
 __pycache__/
+*.py[cod]
+*.py.class
+*.so
 .env
+.venv/
+venv/
+*.session
+*.session-journal
+*.db
+.vscode/
+.idea/
+*.swp
+.DS_Store
 *.log
+build/
+dist/
+*.egg-info/
