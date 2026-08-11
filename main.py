@@ -1,10 +1,15 @@
-"""Githublab."""
-import os,logging
-logging.basicConfig(level=logging.INFO,format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-logger=logging.getLogger(__name__)
+# Githublab - Main Entry
+# A simple Python application
+
 def main():
- logger.info("Starting githublab...")
- token=os.getenv("BOT_TOKEN","")
- if not token:logger.error("BOT_TOKEN not set!");return
- logger.info("Githublab running!")
-if __name__=="__main__":main()
+    print("Welcome to Githublab!")
+    
+    # Process data
+    data = [1, 2, 3, 4, 5]
+    result = sum(data)
+    print(f"Sum: {result}")
+    
+    return result
+
+if __name__ == "__main__":
+    main()
