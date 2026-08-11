@@ -1,2 +1,1 @@
-Test file 2 for Githublab
-# Integration test
+Test file 2 for githublab testing.
