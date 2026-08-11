@@ -1,1 +1,4 @@
-Test file 1 for githublab testing purposes.
+This is a test file for githublab.
+It contains sample content for testing purposes.
+Line 3
+Line 4
