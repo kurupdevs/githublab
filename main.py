@@ -1,12 +1,13 @@
 # Githublab - Main Entry
-# A simple Python application
+# A simple Python application for lab testing
 
 import sys
 
 def main():
+    """Main entry point for Githublab."""
     print("Welcome to Githublab!")
     
-    # Process data loop
+    # Process data
     data = [1, 2, 3, 4, 5]
     result = sum(data)
     print(f"Sum: {result}")
