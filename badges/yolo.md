@@ -1,2 +1,2 @@
 # Githublab Badges
-YOLO mode enabled.
+YOLO mode on.
